@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pr-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTIFOLIO</title>
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: 0px;
+        }
+
+        body{
+            height: 100vh;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+
+        h1{
+            color: rgb(255, 255, 255);
+            border-right: 2px solid rgb(255, 255, 255, 0.75);
+            margin: 0 auto;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: center;
+            font-size: 1.75rem;
+            font-family: 'Zilla Slab', serif;
+        }
+
+        .carregando{
+            animation: cursor 800ms steps(28) infinite normal, type 3s steps(28) 2s normal both;
+            
+        }
+
+
+    @keyframes type{
+        from{ 
+            width: 0;
+        }
+
+        to {
+            width: 15rem;
+        }
+    }
+
+    @keyframes cursor{
+        from {
+            border-right-color: rgb(255, 255, 255, 0.75);
+
+        }
+
+        to {
+            border-right-color: transparent;
+
+        }
+    }
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <h1 class="carregando">Em construção...</h1>
+</body>
+
+</html>
