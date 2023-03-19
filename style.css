@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    border-right: 4px solid rgb(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 16ch;
+    text-align: center;
+    font-size: 2.75rem;
+    font-family: monospace;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.carregando{
+    animation: typing 1.8s steps(16), blinking 0.3s infinite step-end alternate;  
+}
+
+
+@keyframes typing{
+    from{ 
+        width: 0;
+    }
+}
+
+@keyframes blinking{
+    50% {
+        border-color: transparent; 
+    }
+}
