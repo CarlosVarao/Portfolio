@@ -28,7 +28,7 @@ p{
 }
 
 .carregando{
-    animation: typing 1.8s steps(16), blinking 0.3s infinite step-end alternate;  
+    animation: typing 1.8s 1s steps(16) infinite, blinking 0.3s 1s infinite step-end alternate;  
 }
 
 
